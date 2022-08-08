@@ -1,6 +1,15 @@
-|*{
+|* {
     background-color: rgb(132, 137, 141);
-    
+
+}
+
+img {
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
 }
 
 @media screen and (min-width: 900px) {
@@ -8,43 +17,52 @@
         padding: 1rem 3rem;
     }
 }
-li{
+
+li {
     padding: 20px;
-}
-header {
-    height: 100px;
-  
-}
-.promo{
-    height: 300px;
-    background-image: url(img/345cc879c1fb3b1603ee02f0e1cfced2.webp)  ;
-background-size: cover;
-background-position:center ;
-min-height: 500px;
+    list-style-type: none;
 }
 
- .promo h2 {
-  padding-top: 260px;
+header {
+    height: 50px;
+
+}
+
+.promo {
+    height: 300px;
+    background-image: url(img/bg.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+
+
+
+}
+
+.promo h2 {
+    padding-top: 260px;
     text-align: center;
     font-size: 50px;
-    color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
 }
 
 
 header .menu {
-    background-color: rgb(147, 141, 87);
+    background-color: rgb(99, 98, 95);
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     padding: 10px 70px;
     list-style-type: none;
 }
-.tabs{
+
+.tabs {
     display: flex;
     justify-content: space-between;
     height: 600px;
-   
+
 }
+
 .tabs .item {
     display: flex;
     justify-content: space-between;
@@ -55,54 +73,61 @@ header .menu {
 
     margin: auto;
 }
+
 .video {
     height: 300px;
     display: flex;
     justify-content: center;
 }
-.form form{
+
+.form form {
     display: flex;
     justify-content: center;
-    height: 50px;
+    height: 30px;
     padding: 50px;
 }
-.form h2{
-   text-align: center;
+
+.form h2 {
+    text-align: center;
 }
-footer{
+
+footer {
     background-color: silver;
-    height: 50px;
+    height: 80px;
 }
-footer .footer-menu{
+
+footer .footer-menu {
     margin: auto;
     display: flex;
     width: 800px;
     justify-content: space-between;
-    padding: 15px ;
+    padding: 15px;
     text-align: center;
 }
 
 
-.about-text{
+.about-text {
     height: 400px;
-   
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    
+
+
 }
 
 .about-text .about-item {
-    
+
     display: flex;
-    
+
 
 }
- .about-item h2,h3 {
-    
-    
+
+.about-item h2,
+h3 {
+
+
     width: 800px;
 
 }
